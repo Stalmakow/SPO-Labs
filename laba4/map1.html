@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fbdae4298a514dddbd030d5da46fdb2a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_fbdae4298a514dddbd030d5da46fdb2a" ></div>
+        
+</body>
+<script>    
+    
+            var map_fbdae4298a514dddbd030d5da46fdb2a = L.map(
+                "map_fbdae4298a514dddbd030d5da46fdb2a",
+                {
+                    center: [59.97055, 30.430893],
+                    crs: L.CRS.EPSG3857,
+                    zoomControl: true,
+                    zoom: 13,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a50a98c452594f16b6cb9dbce19d0690 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_fbdae4298a514dddbd030d5da46fdb2a);
+        
+    
+            var circle_marker_8746b85f81454f02879eeaa1036b984a = L.circleMarker(
+                [60.005529, 30.448283],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fbdae4298a514dddbd030d5da46fdb2a);
+        
+    
+        var popup_a03af0c80080455094f331f49710a31b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e2400aaa22d470fb21f5a1f97a05bd3 = $(`<div id="html_3e2400aaa22d470fb21f5a1f97a05bd3" style="width: 100.0%; height: 100.0%;">75 (10%) For Amosov  521 (69%) For Beglov  156 (21%) For Tikhonova</div>`)[0];
+            popup_a03af0c80080455094f331f49710a31b.setContent(html_3e2400aaa22d470fb21f5a1f97a05bd3);
+        
+
+        circle_marker_8746b85f81454f02879eeaa1036b984a.bindPopup(popup_a03af0c80080455094f331f49710a31b)
+        ;
+
+        
+    
+    
+            var circle_marker_d8b4b8bd46754f3abc4ccf2f15bb609d = L.circleMarker(
+                [59.975986, 30.425867],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fbdae4298a514dddbd030d5da46fdb2a);
+        
+    
+        var popup_029bb75322594c4091cdb92b3347bf9f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4ed43800ef54ed0bad29fa25b4ade5e = $(`<div id="html_d4ed43800ef54ed0bad29fa25b4ade5e" style="width: 100.0%; height: 100.0%;">318 (16%) For Amosov  1201 (62%) For Beglov  416 (21%) For Tikhonova</div>`)[0];
+            popup_029bb75322594c4091cdb92b3347bf9f.setContent(html_d4ed43800ef54ed0bad29fa25b4ade5e);
+        
+
+        circle_marker_d8b4b8bd46754f3abc4ccf2f15bb609d.bindPopup(popup_029bb75322594c4091cdb92b3347bf9f)
+        ;
+
+        
+    
+    
+            var circle_marker_b4e9557201904ad9b2d2c4e8b37b95db = L.circleMarker(
+                [59.970879, 30.425029],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fbdae4298a514dddbd030d5da46fdb2a);
+        
+    
+        var popup_8b0d0ad7664d4df7900743e54d0d801a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39a9c2e1c9dd42d8a70cb0b89c0d62b3 = $(`<div id="html_39a9c2e1c9dd42d8a70cb0b89c0d62b3" style="width: 100.0%; height: 100.0%;">382 (15%) For Amosov  1603 (64%) For Beglov  512 (21%) For Tikhonova</div>`)[0];
+            popup_8b0d0ad7664d4df7900743e54d0d801a.setContent(html_39a9c2e1c9dd42d8a70cb0b89c0d62b3);
+        
+
+        circle_marker_b4e9557201904ad9b2d2c4e8b37b95db.bindPopup(popup_8b0d0ad7664d4df7900743e54d0d801a)
+        ;
+
+        
+    
+    
+            var circle_marker_e5da083f5fd643f3a278cd800c32f9cc = L.circleMarker(
+                [59.97055, 30.430893],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fbdae4298a514dddbd030d5da46fdb2a);
+        
+    
+        var popup_abd95ebc859a4d1c915dcacff2bed765 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aa12c7fad5cd49fa8a17aba4cf8891cb = $(`<div id="html_aa12c7fad5cd49fa8a17aba4cf8891cb" style="width: 100.0%; height: 100.0%;">510 (14%) For Amosov  2390 (66%) For Beglov  735 (20%) For Tikhonova</div>`)[0];
+            popup_abd95ebc859a4d1c915dcacff2bed765.setContent(html_aa12c7fad5cd49fa8a17aba4cf8891cb);
+        
+
+        circle_marker_e5da083f5fd643f3a278cd800c32f9cc.bindPopup(popup_abd95ebc859a4d1c915dcacff2bed765)
+        ;
+
+        
+    
+    
+            var circle_marker_ff25a50517ea4f089a0ef9fffde8f2e4 = L.circleMarker(
+                [59.964681, 30.411887],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fbdae4298a514dddbd030d5da46fdb2a);
+        
+    
+        var popup_070cf8de29904ffcb23556a33ada871f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2a790f4771d42bfa067bf77b32c9cfa = $(`<div id="html_e2a790f4771d42bfa067bf77b32c9cfa" style="width: 100.0%; height: 100.0%;">591 (17%) For Amosov  2233 (64%) For Beglov  678 (19%) For Tikhonova</div>`)[0];
+            popup_070cf8de29904ffcb23556a33ada871f.setContent(html_e2a790f4771d42bfa067bf77b32c9cfa);
+        
+
+        circle_marker_ff25a50517ea4f089a0ef9fffde8f2e4.bindPopup(popup_070cf8de29904ffcb23556a33ada871f)
+        ;
+
+        
+    
+    
+            var circle_marker_fdf861ef10fc41b6a327867f7044b916 = L.circleMarker(
+                [59.949268000000004, 30.411107],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fbdae4298a514dddbd030d5da46fdb2a);
+        
+    
+        var popup_1b267d1159a946c3b504d355880e20bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5611bcc217234fdf85be0b6e42223952 = $(`<div id="html_5611bcc217234fdf85be0b6e42223952" style="width: 100.0%; height: 100.0%;">212 (20%) For Amosov  660 (62%) For Beglov  192 (18%) For Tikhonova</div>`)[0];
+            popup_1b267d1159a946c3b504d355880e20bc.setContent(html_5611bcc217234fdf85be0b6e42223952);
+        
+
+        circle_marker_fdf861ef10fc41b6a327867f7044b916.bindPopup(popup_1b267d1159a946c3b504d355880e20bc)
+        ;
+
+        
+    
+    
+            var circle_marker_878ee2d9f50c40aa9fa697248d77c2cf = L.circleMarker(
+                [59.956914, 30.410035],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fbdae4298a514dddbd030d5da46fdb2a);
+        
+    
+        var popup_8ee4d0d13ae9475ea3a2ebb770780581 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e239a433d2264efcb696b3a6e3532689 = $(`<div id="html_e239a433d2264efcb696b3a6e3532689" style="width: 100.0%; height: 100.0%;">324 (22%) For Amosov  828 (57%) For Beglov  297 (20%) For Tikhonova</div>`)[0];
+            popup_8ee4d0d13ae9475ea3a2ebb770780581.setContent(html_e239a433d2264efcb696b3a6e3532689);
+        
+
+        circle_marker_878ee2d9f50c40aa9fa697248d77c2cf.bindPopup(popup_8ee4d0d13ae9475ea3a2ebb770780581)
+        ;
+
+        
+    
+    
+            var circle_marker_40749e480d504c09bfddfbe08b158132 = L.circleMarker(
+                [59.954272, 30.412401],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fbdae4298a514dddbd030d5da46fdb2a);
+        
+    
+        var popup_839d9d0e89424a7bbbc3a6f56e6695c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dfb837812465419982e5e80ce6179a11 = $(`<div id="html_dfb837812465419982e5e80ce6179a11" style="width: 100.0%; height: 100.0%;">204 (21%) For Amosov  553 (57%) For Beglov  210 (22%) For Tikhonova</div>`)[0];
+            popup_839d9d0e89424a7bbbc3a6f56e6695c4.setContent(html_dfb837812465419982e5e80ce6179a11);
+        
+
+        circle_marker_40749e480d504c09bfddfbe08b158132.bindPopup(popup_839d9d0e89424a7bbbc3a6f56e6695c4)
+        ;
+
+        
+    
+    
+            var circle_marker_f5e56bd5533f4394a78f96b9439ae560 = L.circleMarker(
+                [59.951477, 30.416871],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fbdae4298a514dddbd030d5da46fdb2a);
+        
+    
+        var popup_da21804005fd4691ba812325162a9957 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_636489d0ec0a46c89c64061efbb68469 = $(`<div id="html_636489d0ec0a46c89c64061efbb68469" style="width: 100.0%; height: 100.0%;">187 (18%) For Amosov  647 (62%) For Beglov  203 (20%) For Tikhonova</div>`)[0];
+            popup_da21804005fd4691ba812325162a9957.setContent(html_636489d0ec0a46c89c64061efbb68469);
+        
+
+        circle_marker_f5e56bd5533f4394a78f96b9439ae560.bindPopup(popup_da21804005fd4691ba812325162a9957)
+        ;
+
+        
+    
+    
+            var circle_marker_37d4ad83e19a4407b28c946956ec060b = L.circleMarker(
+                [59.957189, 30.418495],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fbdae4298a514dddbd030d5da46fdb2a);
+        
+    
+        var popup_6162735ebfab442288e50c116dff10b2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_05e0b7280f4e432d9dcae52348ed9485 = $(`<div id="html_05e0b7280f4e432d9dcae52348ed9485" style="width: 100.0%; height: 100.0%;">209 (17%) For Amosov  798 (63%) For Beglov  252 (20%) For Tikhonova</div>`)[0];
+            popup_6162735ebfab442288e50c116dff10b2.setContent(html_05e0b7280f4e432d9dcae52348ed9485);
+        
+
+        circle_marker_37d4ad83e19a4407b28c946956ec060b.bindPopup(popup_6162735ebfab442288e50c116dff10b2)
+        ;
+
+        
+    
+    
+            var circle_marker_c9ef725cf2284baf862b3f9d162819d9 = L.circleMarker(
+                [59.95608, 30.422654],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fbdae4298a514dddbd030d5da46fdb2a);
+        
+    
+        var popup_2c50afebab2847d78c2420c5acf20126 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ed6bc3f1d6e4cad8af5d1f934936937 = $(`<div id="html_9ed6bc3f1d6e4cad8af5d1f934936937" style="width: 100.0%; height: 100.0%;">152 (15%) For Amosov  690 (66%) For Beglov  199 (19%) For Tikhonova</div>`)[0];
+            popup_2c50afebab2847d78c2420c5acf20126.setContent(html_9ed6bc3f1d6e4cad8af5d1f934936937);
+        
+
+        circle_marker_c9ef725cf2284baf862b3f9d162819d9.bindPopup(popup_2c50afebab2847d78c2420c5acf20126)
+        ;
+
+        
+    
+    
+            var circle_marker_3f5696cc3e50451680e753aa5bd44463 = L.circleMarker(
+                [59.95491, 30.427057],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fbdae4298a514dddbd030d5da46fdb2a);
+        
+    
+        var popup_5efec7d8bd844d16a09b1b57f482a219 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad3061aa81a0410ab614e5efe550f4f4 = $(`<div id="html_ad3061aa81a0410ab614e5efe550f4f4" style="width: 100.0%; height: 100.0%;">155 (14%) For Amosov  690 (64%) For Beglov  230 (21%) For Tikhonova</div>`)[0];
+            popup_5efec7d8bd844d16a09b1b57f482a219.setContent(html_ad3061aa81a0410ab614e5efe550f4f4);
+        
+
+        circle_marker_3f5696cc3e50451680e753aa5bd44463.bindPopup(popup_5efec7d8bd844d16a09b1b57f482a219)
+        ;
+
+        
+    
+    
+            var circle_marker_082f70e164d14e7c906da56e71ac85df = L.circleMarker(
+                [59.958309, 30.43253],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fbdae4298a514dddbd030d5da46fdb2a);
+        
+    
+        var popup_d95a890431464d0e9f8b09711aa1bb75 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_35a47826f91e40e2acae6d81e26a999d = $(`<div id="html_35a47826f91e40e2acae6d81e26a999d" style="width: 100.0%; height: 100.0%;">163 (14%) For Amosov  772 (68%) For Beglov  206 (18%) For Tikhonova</div>`)[0];
+            popup_d95a890431464d0e9f8b09711aa1bb75.setContent(html_35a47826f91e40e2acae6d81e26a999d);
+        
+
+        circle_marker_082f70e164d14e7c906da56e71ac85df.bindPopup(popup_d95a890431464d0e9f8b09711aa1bb75)
+        ;
+
+        
+    
+    
+            var circle_marker_3771aeab34bb4974850e87815d618b9b = L.circleMarker(
+                [59.95696, 30.443239],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fbdae4298a514dddbd030d5da46fdb2a);
+        
+    
+        var popup_1a27cabefd144867bd77336c17c82871 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8af943bd6810475e9dea2f125ba3a3b2 = $(`<div id="html_8af943bd6810475e9dea2f125ba3a3b2" style="width: 100.0%; height: 100.0%;">187 (14%) For Amosov  863 (64%) For Beglov  297 (22%) For Tikhonova</div>`)[0];
+            popup_1a27cabefd144867bd77336c17c82871.setContent(html_8af943bd6810475e9dea2f125ba3a3b2);
+        
+
+        circle_marker_3771aeab34bb4974850e87815d618b9b.bindPopup(popup_1a27cabefd144867bd77336c17c82871)
+        ;
+
+        
+    
+    
+            var circle_marker_d32cdf5da5774662b681994a9795379f = L.circleMarker(
+                [59.936063, 30.405129],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fbdae4298a514dddbd030d5da46fdb2a);
+        
+    
+        var popup_8ccf2391edda46488da6b2a28d2b98b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_768de594994a43139e20c2ba4f10b89b = $(`<div id="html_768de594994a43139e20c2ba4f10b89b" style="width: 100.0%; height: 100.0%;">250 (21%) For Amosov  696 (60%) For Beglov  222 (19%) For Tikhonova</div>`)[0];
+            popup_8ccf2391edda46488da6b2a28d2b98b7.setContent(html_768de594994a43139e20c2ba4f10b89b);
+        
+
+        circle_marker_d32cdf5da5774662b681994a9795379f.bindPopup(popup_8ccf2391edda46488da6b2a28d2b98b7)
+        ;
+
+        
+    
+    
+            var circle_marker_d8816b7a98af456c9394944ee204bc26 = L.circleMarker(
+                [59.931664, 30.413312],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fbdae4298a514dddbd030d5da46fdb2a);
+        
+    
+        var popup_2aa6e485e18e4c9693996523123fb5c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_869fb4e1fb4140dd89f71a62d3d2dace = $(`<div id="html_869fb4e1fb4140dd89f71a62d3d2dace" style="width: 100.0%; height: 100.0%;">491 (23%) For Amosov  1148 (55%) For Beglov  457 (22%) For Tikhonova</div>`)[0];
+            popup_2aa6e485e18e4c9693996523123fb5c6.setContent(html_869fb4e1fb4140dd89f71a62d3d2dace);
+        
+
+        circle_marker_d8816b7a98af456c9394944ee204bc26.bindPopup(popup_2aa6e485e18e4c9693996523123fb5c6)
+        ;
+
+        
+    
+    
+            var circle_marker_3fad0310897741a0a83a2f92497c0cf0 = L.circleMarker(
+                [59.924302, 30.407203],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fbdae4298a514dddbd030d5da46fdb2a);
+        
+    
+        var popup_70755c2541474701b8368ff79ba3ae5e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f1cf5a733f24f2bb4a1d782051871dc = $(`<div id="html_1f1cf5a733f24f2bb4a1d782051871dc" style="width: 100.0%; height: 100.0%;">237 (29%) For Amosov  428 (52%) For Beglov  162 (20%) For Tikhonova</div>`)[0];
+            popup_70755c2541474701b8368ff79ba3ae5e.setContent(html_1f1cf5a733f24f2bb4a1d782051871dc);
+        
+
+        circle_marker_3fad0310897741a0a83a2f92497c0cf0.bindPopup(popup_70755c2541474701b8368ff79ba3ae5e)
+        ;
+
+        
+    
+    
+            var circle_marker_3ef9d85809e74205bc9b6d6811f49d88 = L.circleMarker(
+                [59.924317, 30.413386],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fbdae4298a514dddbd030d5da46fdb2a);
+        
+    
+        var popup_7e37769915b64793ac43c90cbbe66152 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_230a9e5a64c049bda5f20bb2718a37ae = $(`<div id="html_230a9e5a64c049bda5f20bb2718a37ae" style="width: 100.0%; height: 100.0%;">94 (24%) For Amosov  231 (59%) For Beglov  65 (17%) For Tikhonova</div>`)[0];
+            popup_7e37769915b64793ac43c90cbbe66152.setContent(html_230a9e5a64c049bda5f20bb2718a37ae);
+        
+
+        circle_marker_3ef9d85809e74205bc9b6d6811f49d88.bindPopup(popup_7e37769915b64793ac43c90cbbe66152)
+        ;
+
+        
+    
+    
+            var circle_marker_236ec1d89f664708ba00f0335e19806b = L.circleMarker(
+                [59.926588, 30.417402],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fbdae4298a514dddbd030d5da46fdb2a);
+        
+    
+        var popup_b4237dab4e344a099dfacbd725915d97 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d8e0f3a3ba1e49e7b9670afe921018dd = $(`<div id="html_d8e0f3a3ba1e49e7b9670afe921018dd" style="width: 100.0%; height: 100.0%;">189 (18%) For Amosov  642 (62%) For Beglov  199 (19%) For Tikhonova</div>`)[0];
+            popup_b4237dab4e344a099dfacbd725915d97.setContent(html_d8e0f3a3ba1e49e7b9670afe921018dd);
+        
+
+        circle_marker_236ec1d89f664708ba00f0335e19806b.bindPopup(popup_b4237dab4e344a099dfacbd725915d97)
+        ;
+
+        
+    
+    
+            var circle_marker_282b8a7c71cc4be8861cc71ccc5134dc = L.circleMarker(
+                [59.923598, 30.421194],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fbdae4298a514dddbd030d5da46fdb2a);
+        
+    
+        var popup_5c14b7e27e61412fb6bb8c1a2548f4b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97f405bc73474788b288d3f002cb0a67 = $(`<div id="html_97f405bc73474788b288d3f002cb0a67" style="width: 100.0%; height: 100.0%;">314 (19%) For Amosov  1070 (63%) For Beglov  312 (18%) For Tikhonova</div>`)[0];
+            popup_5c14b7e27e61412fb6bb8c1a2548f4b1.setContent(html_97f405bc73474788b288d3f002cb0a67);
+        
+
+        circle_marker_282b8a7c71cc4be8861cc71ccc5134dc.bindPopup(popup_5c14b7e27e61412fb6bb8c1a2548f4b1)
+        ;
+
+        
+    
+    
+            var circle_marker_18668f696ec84bd782185795877e2ad6 = L.circleMarker(
+                [59.928476, 30.423068],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fbdae4298a514dddbd030d5da46fdb2a);
+        
+    
+        var popup_4778e1becb8744429c13c6318fc0d0f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e5ac7ecdc734d1b9dc43b5b78ee6d63 = $(`<div id="html_6e5ac7ecdc734d1b9dc43b5b78ee6d63" style="width: 100.0%; height: 100.0%;">398 (18%) For Amosov  1396 (64%) For Beglov  391 (18%) For Tikhonova</div>`)[0];
+            popup_4778e1becb8744429c13c6318fc0d0f6.setContent(html_6e5ac7ecdc734d1b9dc43b5b78ee6d63);
+        
+
+        circle_marker_18668f696ec84bd782185795877e2ad6.bindPopup(popup_4778e1becb8744429c13c6318fc0d0f6)
+        ;
+
+        
+    
+    
+            var circle_marker_b8d02cc847d447539599d12b08032838 = L.circleMarker(
+                [59.938534, 30.437614],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fbdae4298a514dddbd030d5da46fdb2a);
+        
+    
+        var popup_2c791507ef1e48f4a9f282f5b6e93c63 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e18698deed2f45d9a7f98e78018f7876 = $(`<div id="html_e18698deed2f45d9a7f98e78018f7876" style="width: 100.0%; height: 100.0%;">103 (16%) For Amosov  280 (44%) For Beglov  250 (39%) For Tikhonova</div>`)[0];
+            popup_2c791507ef1e48f4a9f282f5b6e93c63.setContent(html_e18698deed2f45d9a7f98e78018f7876);
+        
+
+        circle_marker_b8d02cc847d447539599d12b08032838.bindPopup(popup_2c791507ef1e48f4a9f282f5b6e93c63)
+        ;
+
+        
+    
+    
+            var circle_marker_1b99660f758b4e2cbb14860068cda133 = L.circleMarker(
+                [60.032688, 30.453839],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fbdae4298a514dddbd030d5da46fdb2a);
+        
+    
+        var popup_d65e7c997d0c4f1384fe3fb52d74125f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81b5a30a752c471ea5e586c5bbb4b302 = $(`<div id="html_81b5a30a752c471ea5e586c5bbb4b302" style="width: 100.0%; height: 100.0%;">195 (12%) For Amosov  740 (46%) For Beglov  661 (41%) For Tikhonova</div>`)[0];
+            popup_d65e7c997d0c4f1384fe3fb52d74125f.setContent(html_81b5a30a752c471ea5e586c5bbb4b302);
+        
+
+        circle_marker_1b99660f758b4e2cbb14860068cda133.bindPopup(popup_d65e7c997d0c4f1384fe3fb52d74125f)
+        ;
+
+        
+    
+    
+            var circle_marker_f17eff280a444e9985c1b68524f64e60 = L.circleMarker(
+                [60.027318, 30.454233],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_fbdae4298a514dddbd030d5da46fdb2a);
+        
+    
+        var popup_27d52f660699442bb256d3542d7425c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a83afc74d604382995faeff30de49b4 = $(`<div id="html_8a83afc74d604382995faeff30de49b4" style="width: 100.0%; height: 100.0%;">199 (11%) For Amosov  1076 (59%) For Beglov  538 (30%) For Tikhonova</div>`)[0];
+            popup_27d52f660699442bb256d3542d7425c6.setContent(html_8a83afc74d604382995faeff30de49b4);
+        
+
+        circle_marker_f17eff280a444e9985c1b68524f64e60.bindPopup(popup_27d52f660699442bb256d3542d7425c6)
+        ;
+
+        
+    
+</script>
